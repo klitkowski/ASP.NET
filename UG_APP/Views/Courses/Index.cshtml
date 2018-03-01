@@ -1,0 +1,42 @@
+﻿@model IEnumerable<UG_APP.Models.Course>
+
+@{
+    ViewData["Title"] = "Przedmioty";
+    Layout = "~/Views/Shared/_customLayout.cshtml";
+}
+
+<h2>Przedmioty</h2>
+
+<p>
+    <a asp-action="Create">Stwórz</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CourseID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CourseID">Edytuj</a> |
+                <a asp-action="Details" asp-route-id="@item.CourseID">Szczegóły</a> |
+                <a asp-action="Delete" asp-route-id="@item.CourseID">Usuń</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

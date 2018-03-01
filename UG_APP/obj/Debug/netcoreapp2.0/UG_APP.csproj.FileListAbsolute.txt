@@ -1,0 +1,12 @@
+D:\C#\UG_APP\UG_APP\bin\Debug\netcoreapp2.0\UG_APP.deps.json
+D:\C#\UG_APP\UG_APP\bin\Debug\netcoreapp2.0\UG_APP.runtimeconfig.json
+D:\C#\UG_APP\UG_APP\bin\Debug\netcoreapp2.0\UG_APP.runtimeconfig.dev.json
+D:\C#\UG_APP\UG_APP\bin\Debug\netcoreapp2.0\UG_APP.dll
+D:\C#\UG_APP\UG_APP\bin\Debug\netcoreapp2.0\UG_APP.pdb
+D:\C#\UG_APP\UG_APP\obj\Debug\netcoreapp2.0\UG_APP.csprojResolveAssemblyReference.cache
+D:\C#\UG_APP\UG_APP\obj\Debug\netcoreapp2.0\UG_APP.csproj.CoreCompileInputs.cache
+D:\C#\UG_APP\UG_APP\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\C#\UG_APP\UG_APP\obj\Debug\netcoreapp2.0\UG_APP.AssemblyInfoInputs.cache
+D:\C#\UG_APP\UG_APP\obj\Debug\netcoreapp2.0\UG_APP.AssemblyInfo.cs
+D:\C#\UG_APP\UG_APP\obj\Debug\netcoreapp2.0\UG_APP.dll
+D:\C#\UG_APP\UG_APP\obj\Debug\netcoreapp2.0\UG_APP.pdb
